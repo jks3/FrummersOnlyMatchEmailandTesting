@@ -3,6 +3,7 @@ import scipy.optimize as sc
 import scipy as scm
 import numpy as np
 import platypus
+import itertools
 
 class Person:
     def __init__(self, my_attributes, my_weights):
@@ -28,7 +29,7 @@ class Match_Tuple:
 boys = []
 girls = []
 
-for i in range(500):
+for i in range(5):
 
     boy_attributes = np.random.randint(low = 0, high = 10, size = 5)
 
@@ -56,5 +57,48 @@ for i in range(len(boys)):
 
 print(Match_Tuple.match_tuples[frozenset({boys[0], girls[0]})])
 
+all_combinations = []
 
+list1_permutations = itertools.permutations(boys, len(girls))
 
+for each_permutation in list1_permutations:
+    zipped = zip(each_permutation, girls)
+    all_combinations.append(list(zipped))
+
+print(all_combinations)
+
+#truth = []
+
+#for combo in all_combinations:
+#    for i in range(len(combo)):
+
+#        truth_i = []
+
+#        j_list = list(range(len(combo)))
+
+#        j_list.remove(i)
+
+#        for j in j_list:
+#            if set(combo[i]).isdisjoint(set(combo[j])):
+#                truth_i.append(True)
+#            else:
+#                truth_i.append(False)
+
+#        if not (False in truth_i):
+#            truth.append(True)
+#        else:
+#            truth.append(False)
+#print(not (False in truth))
+
+def belegundu(vars):
+    x = vars[0]
+    y = vars[1]
+    return [-2*x + y, 2*x + y], [-x + y - 1, x + y - 7]
+
+problem = platypus.Problem(2, 2, 2)
+problem.types[:] = [platypus.Real(0, 5), platypus.Real(0, 3)]
+problem.constraints[:] = "<=0"
+problem.function = belegundu
+
+algorithm = platypus.NSGAII(problem)
+algorithm.run(10000)
