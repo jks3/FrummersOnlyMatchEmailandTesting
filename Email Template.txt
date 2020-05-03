@@ -1,0 +1,18 @@
+﻿Dear ${PERSON1_NAME},
+
+        The Frummers Only Team is proud to inform you that through careful inspection by ourselves
+        and an intelligent computer algorithm, you have been matched with:  ${PERSON2_NAME},
+        who's FB is: ${PERSON2_FACEBOOK}
+        and email is: ${PERSON2_EMAIL}
+
+        We hope you will reach out to them via Facebook DM to explore your future!
+
+        You may have more than one match, so I guess you're hot stuff!
+
+        Good luck with your match made in the (web) clouds :)
+
+        Sincerely,
+        The Frummers Only Team
+
+        P.S. This is an automated email, so we're sorry if it looks funny ;)
+

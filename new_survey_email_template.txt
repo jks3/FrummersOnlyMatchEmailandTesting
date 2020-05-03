@@ -1,0 +1,10 @@
+Dear ${PERSON1_NAME},
+
+Thank you for taking part in the first round of Frummers Only!
+We would love to hear your feedback on our first round of matches! Any and all words of (constructive or otherwise) criticism is welcome and will be strongly considered!
+We just sent out an email regarding a link to the form for our second round of matches; make sure to find that email and fill out our new and improved form!
+
+Link to feedback form: https://docs.google.com/forms/d/e/1FAIpQLScR_u69oL0fas2GNUVAC7W9cPN5Mi7-K0nHbQWRCjEJeGw3EQ/viewform?fbclid=IwAR0Zpi7SyzPFJZGjdco-akUnyr5rBURHq3VEcvV36i9soMP7NBikU4SxIRs
+
+Best regards,
+The Frummers Only Team

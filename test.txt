@@ -1,0 +1,12 @@
+From: frummerscadre@gmail.com
+To: pzpaul2002@yahoo.com
+Subject: Your Matches Courtesy of the Frummers Only Team!
+Body:
+b"\xef\xbb\xbfDear Palmer Paul,\n\n        The Frummers Only Team is proud to inform you that through careful inspection by ourselves\n        and an intelligent computer algorithm, you have been matched with:  Elana Loftspring,\n        who's FB is: Elana Loftspring\n        and email is: Elanaloftspring@gmail.com\n\n        We hope you will reach out to them via Facebook DM to explore your future!\n\n        You may have more than one match, so I guess you're hot stuff!\n\n        Good luck with your match made in the (web) clouds :)\n\n        Sincerely,\n        The Frummers Only Team\n\n        P.S. This is an automated email, so we're sorry if it looks funny ;)\n\n"
+-----------------------------------------------
+From: frummerscadre@gmail.com
+To: Elanaloftspring@gmail.com
+Subject: Your Matches Courtesy of the Frummers Only Team!
+Body:
+b"\xef\xbb\xbfDear Elana Loftspring,\n\n        The Frummers Only Team is proud to inform you that through careful inspection by ourselves\n        and an intelligent computer algorithm, you have been matched with:  Palmer Paul,\n        who's FB is: Palmer Paul\n        and email is: pzpaul2002@yahoo.com\n\n        We hope you will reach out to them via Facebook DM to explore your future!\n\n        You may have more than one match, so I guess you're hot stuff!\n\n        Good luck with your match made in the (web) clouds :)\n\n        Sincerely,\n        The Frummers Only Team\n\n        P.S. This is an automated email, so we're sorry if it looks funny ;)\n\n"
+-----------------------------------------------
