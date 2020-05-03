@@ -4,10 +4,6 @@ import scipy as scm
 import numpy as np
 import platypus
 
-print(sys.maxsize)
-print(sc.linear_sum_assignment(np.array([[1, 1, 3], [2, 0, 5], [3, 2, 2]])))
-
-
 class Person:
     def __init__(self, my_attributes, my_weights):
         self.my_attributes = np.array(my_attributes)
